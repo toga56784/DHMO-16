@@ -29,6 +29,14 @@ The following are some basic guidelines for contributors.
 Subscribe to my [youtube](https://www.youtube.com/@toga56784)
 
 # Don't Read Me
-Unless you want to. The remainder of this README file is just notes for myself and anyone interested in helping to know exactly how the project works and what specifications it should work to.
+**Warning:** Don't README unless you want to. The remainder of this README file is just notes for myself and anyone interested in helping to know exactly how the project works. It covers the specifications.
 
-I will write the technical specifications later I should probably first of all make something that people can use.
+## CPU
+
+### Registers
+* The DHMO-16 uses 8 16-bit general purpose registers labeled R0-R7.
+* A 16 bit Program Counter that stores the currently accessed line's index in ROM.
+* A 16 bit Stack Pointer that stores the top of the stack.
+
+### Instructions
+| 
