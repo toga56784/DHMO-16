@@ -39,4 +39,9 @@ Subscribe to my [youtube](https://www.youtube.com/@toga56784)
 * A 16 bit Stack Pointer that stores the top of the stack.
 
 ### Instructions
-| 
+These are in hexidecimal, there is currently no language support.
+| Name | Opcode | Operands | Description |
+|------|--------|----------|-------------|
+| R0 | 0x01 | V | Sets the value of R0 to the value, V. |
+| MOV | 0x02 | R | Moves the value in R0 to register, R. |
+| HALT | 0xFF | - | Exits the program with the code at R7. |
