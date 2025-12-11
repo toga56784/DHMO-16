@@ -21,7 +21,7 @@ Since this project is very open for people to use it as a base I would recommend
 # Guidelines for contributors
 The following are some basic guidelines for contributors.
 
-## Make sure you do this when submitting a PR
+## Making a PR?
 * File an issue that your PR resolves and reference the issue in the PR
 * Make sure that when you submit a PR you squash your commits
 
